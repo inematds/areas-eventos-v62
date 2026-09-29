@@ -29,3 +29,9 @@ node ~/.claude/skills/formato-curso-v6/scripts/testar-motor.cjs curso.html
 ```
 
 Cenas: `context/gera-cenas.sh` (Codex image_gen pela assinatura; fallback flux2-klein local).
+
+## Mais no INEMA.CLUB
+
+- Ficha do curso: https://www.inema.club/cursos/309-areas-do-inema-eventos-v6-2-o-que-e-cada-area/
+- Guia: https://www.inema.club/aprender-inteligencia-artificial/
+- Todos os cursos: https://www.inema.club/cursos/

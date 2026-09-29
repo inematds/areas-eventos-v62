@@ -80,3 +80,5 @@
 {"t": "2026-09-29T09:11:30", "lang": "es", "ok": 40, "rejeitadas": 0, "motor": "codex-assinatura", "modelo": "gpt-6-luna", "seg": 16}
 {"t": "2026-09-29T09:11:30", "lang": "es", "ok": 40, "rejeitadas": 0, "motor": "codex-assinatura", "modelo": "gpt-6-luna", "seg": 11}
 {"t": "2026-09-29T09:11:30", "lang": "es", "ok": 5, "rejeitadas": 0, "motor": "codex-assinatura", "modelo": "gpt-6-luna", "seg": 5}
+{"t": "2026-09-29T09:29:51", "lang": "en", "ok": 4, "rejeitadas": 0, "motor": "codex-assinatura", "modelo": "gpt-6-luna", "seg": 10}
+{"t": "2026-09-29T09:30:02", "lang": "es", "ok": 4, "rejeitadas": 0, "motor": "codex-assinatura", "modelo": "gpt-6-luna", "seg": 11}

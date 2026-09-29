@@ -1133,5 +1133,9 @@
  "A certa está marcada.": "La correcta está marcada.",
  "Na prática": "En la práctica",
  "Toque para comparar os dois casos:": "Toca para comparar los dos casos:",
- "ver no glossário": "ver en el glosario"
+ "ver no glossário": "ver en el glosario",
+ "<a class=\"mark\" href=\"https://inema.club\" rel=\"noopener\" target=\"_blank\">INEMA.CLUB</a><a class=\"pro\" href=\"https://inema.pro\" rel=\"noopener\" target=\"_blank\">PRO</a><span class=\"course\">Áreas INEMA v6.2</span>": "<a class=\"mark\" href=\"https://inema.club\" rel=\"noopener\" target=\"_blank\">INEMA.CLUB</a><a class=\"pro\" href=\"https://inema.pro\" rel=\"noopener\" target=\"_blank\">PRO</a><span class=\"course\">Áreas INEMA v6.2</span>",
+ "entrar no curso": "entrar al curso",
+ "<a aria-current=\"true\" href=\"landing.html\">PT</a><a href=\"en/landing.html\">EN</a><a href=\"es/landing.html\">ES</a>": "<a aria-current=\"true\" href=\"landing.html\">PT</a><a href=\"en/landing.html\">EN</a><a href=\"es/landing.html\">ES</a>",
+ "<a href=\"https://www.inema.club/cursos/309-areas-do-inema-eventos-v6-2-o-que-e-cada-area/\" style=\"color:inherit;text-decoration:underline\">Ficha completa deste curso no INEMA.CLUB</a> · <a href=\"https://www.inema.club/aprender-inteligencia-artificial/\" style=\"color:inherit;text-decoration:underline\">Guia: como aprender inteligência artificial</a> · <a href=\"https://www.inema.club/cursos/\" style=\"color:inherit;text-decoration:underline\">Todos os cursos</a>": "<a href=\"https://www.inema.club/cursos/309-areas-do-inema-eventos-v6-2-o-que-e-cada-area/\" style=\"color:inherit;text-decoration:underline\">Ficha completa de este curso en INEMA.CLUB</a> · <a href=\"https://www.inema.club/aprender-inteligencia-artificial/\" style=\"color:inherit;text-decoration:underline\">Guía: cómo aprender inteligencia artificial</a> · <a href=\"https://www.inema.club/cursos/\" style=\"color:inherit;text-decoration:underline\">Todos los cursos</a>"
 }
