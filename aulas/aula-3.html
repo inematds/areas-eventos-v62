@@ -1,0 +1,190 @@
+<section class="view" id="v-aula-3" data-aula="3" data-tempo="14min">
+<div class="aula">
+<header class="a-hero">
+  <p class="kicker">Aula 3 de 9 · IA Cultivada</p>
+  <h1>Agente não se programa. <em>Se cultiva.</em></h1>
+  <figure class="cena"><img src="assets/img/aula-3.webp" width="1280" height="720" alt="Um analista de RH revisa numa mesa uma ficha impressa cheia de anotações à mão, com uma xícara de café ao lado."></figure>
+  <p class="promise">Você consegue explicar por que a sua IA melhora pelo ambiente em volta dela e montar a ficha de um agente seu com os oito elementos do cultivo.</p>
+  <p class="why">Muita gente reclama que "a IA não aprende". O modelo, de fato, não aprende sozinho enquanto você usa. Quem melhora é o que você escreve e ajusta em volta dele. Esta área ensina a cuidar disso.</p>
+  <div class="em1min">
+    <p class="k">Em 1 minuto</p>
+    <ol>
+      <li>O modelo chega pronto. O que você cultiva é o ambiente: contexto, regras, exemplos e memória.</li>
+      <li>Oito elementos: os quatro primeiros fazem o agente funcionar; os quatro últimos fazem ele melhorar.</li>
+      <li>Cada falha vira uma linha no diário e uma correção no arquivo, não na conversa.</li>
+    </ol>
+  </div>
+</header>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">1</span>O modelo é igual ao do concorrente. O jardim, não</h2>
+  <p>A área abre com uma frase: "Antes, programávamos o comportamento. Agora, programamos o processo que produz o comportamento."</p>
+  <p>A página separa dois níveis. No primeiro, o laboratório cultiva o modelo, e você não participa. No segundo, você cultiva o <span class="gterm" data-def="uma IA que recebe uma responsabilidade e faz o trabalho com ferramentas, em vez de só responder uma pergunta. Exemplo: responder as dúvidas de férias dos funcionários com base na política da empresa.">agente</span>: o modelo chega pronto, e o que muda é o ambiente em volta dele. A página chama esse ambiente de jardim.</p>
+  <p data-ex="analista de RH">Diego e uma colega usam o mesmo chat de IA para escrever comunicados internos. Os dela saem no tom da empresa; os dele, genéricos.</p>
+  <figure class="largo">
+    <div class="lado">
+      <div class="antes"><span class="rot">Diego</span><p>Abre o chat e pede "escreva um comunicado sobre o novo horário".</p><p>Nada escrito sobre a empresa, nenhum exemplo.</p></div>
+      <div class="depois"><span class="rot">A colega</span><p>Cola uma página sobre a empresa, dois comunicados antigos aprovados e três regras de tom.</p><p>Mesmo modelo, outro jardim.</p></div>
+    </div>
+    <figcaption>A diferença não está na IA. Está no que cada um escreveu e guardou para ela.</figcaption>
+  </figure>
+</section>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">2</span>Os oito elementos do cultivo</h2>
+  <p>Todo agente, pessoal ou de empresa, é cultivado com os mesmos oito ingredientes: <b>função</b>, <b>contexto</b>, <b>ferramentas</b>, <b>regras e limites</b>, <b>exemplos</b>, <b>memória</b>, <b>avaliação</b> e <b>feedback</b>.</p>
+  <p>Os quatro primeiros fazem o agente funcionar. Os quatro últimos fazem ele melhorar. A página observa que a maioria das pessoas para no quarto e depois reclama que a IA não aprende.</p>
+  <p data-ex="gerente de loja">Sônia usa a IA para escrever a descrição dos calçados no site da loja. Ela marcou o que tinha por escrito.</p>
+  <figure class="largo">
+    <div class="janela">
+      <div class="tela-top"><i></i><i></i><i></i><span>Notas · agente das descrições do site</span></div>
+      <div class="janela-body">
+        <div class="item doc"><span class="pin">1</span> Função: descrever cada calçado novo · <b>escrito</b></div>
+        <div class="item doc"><span class="pin">2</span> Contexto, ferramentas, regras · <b>escrito</b></div>
+        <div class="item doc"><span class="pin">3</span> Exemplos, memória, avaliação, feedback · <b>só na cabeça</b></div>
+        <div class="item botao"><span class="pin">4</span> Começar pelos exemplos</div>
+      </div>
+    </div>
+    <ol class="passos">
+      <li><span class="pin">1</span><span>Um papel por vez: o agente responde por uma coisa só.</span></li>
+      <li><span class="pin">2</span><span>O resto da base também está escrito.</span></li>
+      <li><span class="pin">3</span><span>Aqui está o buraco: nada que faça o agente melhorar.</span></li>
+      <li><span class="pin">4</span><span>Duas descrições boas e uma ruim, com o porquê, já ajudam.</span></li>
+    </ol>
+    <figcaption>A lista de Sônia. Os quatro primeiros elementos estavam lá; os quatro que fazem melhorar, não.</figcaption>
+  </figure>
+</section>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">3</span>Cada falha vira uma linha</h2>
+  <p>O coração do método é o ciclo: o agente trabalha, você avalia, a falha vira ajuste no ambiente e o agente melhora. A página chama cada volta de safra.</p>
+  <p>Duas regras sustentam o ciclo. A avaliação gera <b>linhas, não impressões</b>: uma linha por falha, num diário. E a correção vai <b>no arquivo, não na conversa</b>, porque a conversa se perde. O arquivo é um texto seu, nas Notas ou num documento, que você cola no começo de cada conversa com a IA.</p>
+  <p data-ex="analista de RH">Diego abriu o diário de falhas do agente de comunicados, com as quatro colunas da página.</p>
+  <figure class="largo">
+    <div class="janela">
+      <div class="tela-top"><i></i><i></i><i></i><span>Diário de falhas · comunicados</span></div>
+      <div class="janela-body">
+        <div class="item doc"><span class="pin">1</span> data | o que quebrou | menor correção | instrução ou infra</div>
+        <div class="item doc"><span class="pin">2</span> segunda | tom formal demais | colar dois comunicados aprovados | instrução</div>
+        <div class="item botao"><span class="pin">3</span> Copiar a correção para as regras</div>
+      </div>
+    </div>
+    <ol class="passos">
+      <li><span class="pin">1</span><span>As quatro colunas do diário, iguais às da página.</span></li>
+      <li><span class="pin">2</span><span>Uma falha, uma linha. Depois de dez linhas, o padrão aparece.</span></li>
+      <li><span class="pin">3</span><span>A correção sai do diário e entra no arquivo do agente.</span></li>
+    </ol>
+    <figcaption>O diário não precisa de programa especial. Uma planilha ou um documento resolve.</figcaption>
+  </figure>
+  <div class="calma"><p><span class="k">Se travou aqui, é normal</span>Não sabe se uma falha é "instrução" (faltou dizer algo à IA) ou "infra" (a ferramenta falhou: não abriu o arquivo, caiu)? Escreva a linha assim mesmo e deixe a última coluna em branco. O que importa é registrar; na revisão da semana você decide.</p></div>
+</section>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">4</span>Autonomia se conquista por ciclo limpo</h2>
+  <p>A página define três níveis. No nível 1, o agente <b>propõe e você executa</b>. No nível 2, ele <b>executa e você revisa</b>. No nível 3, ele <b>executa e reporta</b>. Todo agente começa no nível 1; nunca no 3.</p>
+  <p>Tudo cabe em cinco arquivos de texto: a ficha do agente, o contexto, os exemplos anotados, o diário de falhas e o placar da revisão semanal, onde você decide manter, subir ou voltar de nível.</p>
+  <p data-ex="gerente de loja">Sônia pediu a um chat de IA para dizer em que nível o agente das descrições deveria começar.</p>
+  <figure class="largo">
+    <div class="tela">
+      <div class="tela-top"><i></i><i></i><i></i><span>Chat de IA</span></div>
+      <div class="tela-body">
+        <p class="msg eu"><span class="quem">Você</span>Meu agente escreve a descrição dos calçados novos para o site da loja. Em qual dos três níveis ele começa: propõe e eu executo, executa e eu reviso, ou executa e reporta?</p>
+        <p class="msg ia ok"><span class="quem">IA</span>Começa no nível 1: ele propõe a descrição e você publica.
+Suba para o nível 2 só depois de algumas semanas sem falhas novas no diário.</p>
+      </div>
+      <p class="tela-nota bom">A resposta não promete prazo nem número. Ela amarra a subida de nível ao diário.</p>
+    </div>
+  </figure>
+  <div class="quiz" data-answer="b">
+    <p class="qk">Teste-se</p>
+    <p class="q">Depois de um mês, você diz que "sua IA ficou melhor", mas o modelo é o mesmo. O que melhorou, segundo a área?</p>
+    <button class="opt" data-k="a" data-fb="Em uso, o modelo não aprende sozinho. Os pesos dele chegam congelados.">O modelo aprendeu com as suas conversas</button>
+    <button class="opt" data-k="b" data-fb="Isso. Contexto, regras, exemplos e memória ajustados a cada ciclo. Quem aprende é o sistema em volta do modelo.">O jardim em volta dele</button>
+    <button class="opt" data-k="c" data-fb="Pode ser coincidência, mas a área mostra que a diferença vem do ambiente que você cultivou.">Você passou a pedir com mais sorte</button>
+    <p class="qfb" aria-live="polite"></p>
+  </div>
+</section>
+
+<section class="practice" data-mode="prompt">
+  <p class="pk">Pratique agora <span class="pcount">0/3</span></p>
+  <h3 class="ph">A ficha de um agente seu, com os oito elementos</h3>
+  <p class="pgoal">Pronto quando você tiver uma ficha v1.0 com os oito elementos e o cabeçalho do diário de falhas. Cerca de 10 minutos.</p>
+  <p class="psafe">Descreva a tarefa sem nomes de clientes nem dados pessoais. Onde a IA escrever &lt;preencher&gt;, tudo bem: é o sinal de que ela não inventou.</p>
+  <div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">Leia a página https://eventos.inema.pro/ia-cultivada/ (área IA Cultivada do INEMA).
+
+Meu jardim: &lt;vida pessoal ou trabalho&gt;
+A única função do agente: &lt;uma responsabilidade só&gt;
+O que eu já tenho: &lt;documentos, exemplos, ferramentas&gt;
+
+Monte a ficha do agente com os oito elementos: função, contexto, ferramentas, regras e limites (faz sozinho, pede confirmação, nunca faz), exemplos, memória, avaliação e feedback. Coloque versão v1.0 e a data de hoje.
+Depois, escreva o cabeçalho do diário de falhas: data | o que quebrou | menor correção | instrução ou infra.
+Comece no nível 1: o agente propõe, eu executo.
+Onde faltar informação, escreva &lt;preencher&gt; em vez de inventar.</pre></div>
+  <details class="mais"><summary>Veja o molde preenchido por um analista de RH</summary>
+    <p><b>Meu jardim:</b> trabalho.<br><b>A única função do agente:</b> rascunhar os comunicados internos do RH.<br><b>O que eu já tenho:</b> três comunicados antigos aprovados e o manual de tom da empresa.</p>
+  </details>
+  <ol class="psteps">
+    <li><label><input type="checkbox" data-ptask="1"> <span>Copie o pedido, cole no chat de IA que você já usa e troque o que está entre &lt; &gt; por uma tarefa real sua.</span></label></li>
+    <li><label><input type="checkbox" data-ptask="2"> <span>Guarde a ficha e o diário num documento ou nas Notas do celular, não só na conversa.</span></label></li>
+    <li><label><input type="checkbox" data-ptask="3"> <span>Confira: exemplos, memória, avaliação e feedback estão preenchidos? Complete pelo menos um deles.</span></label></li>
+  </ol>
+  <p class="pdone">Você acabou de plantar um jardim: a ficha é o ponto de partida do ciclo.</p>
+</section>
+
+<div class="fecho">
+  <div class="cola">
+    <p class="k">Cola da aula</p>
+    <h3>IA Cultivada</h3>
+    <ol>
+      <li><span><b>Tese</b>o modelo chega pronto; o que você cultiva é o ambiente em volta dele.</span></li>
+      <li><span><b>Oito elementos</b>função, contexto, ferramentas, regras, exemplos, memória, avaliação e feedback.</span></li>
+      <li><span><b>Ciclo</b>uma falha, uma linha; a correção vai no arquivo; autonomia começa no nível 1.</span></li>
+    </ol>
+  </div>
+  <div class="next-action">
+    <p class="nak">Seu próximo passo</p>
+    <p class="na-win">Você já sabe dizer o que a área IA Cultivada resolve e tem a ficha v1.0 de um agente seu.</p>
+    <p class="na-action">Esta semana, use o agente e escreva a primeira linha no diário de falhas.</p>
+    <p class="na-hook">Na próxima aula: a ficha que você escreveu é sua ou do fornecedor da IA? A próxima área mostra onde o seu jeito de trabalhar com IA pode ficar preso a uma ferramenta só.</p>
+  </div>
+</div>
+
+<details class="complementar">
+  <summary>Material complementar<small>A área IA Cultivada em seis tópicos. Não conta no tempo da aula.</small></summary>
+  <section class="comp-sec"><h3>O processo que produz o comportamento</h3>
+    <p>Ninguém escreve linha por linha a capacidade de um grande modelo: o laboratório cria as condições e ela emerge. Esse é o nível 1.</p>
+    <p>No nível 2, você cultiva o agente. O modelo chega com os pesos congelados; o que aprende é o sistema em volta dele.</p>
+  </section>
+  <section class="comp-sec"><h3>Os oito elementos</h3>
+    <p>Função, um papel por vez. Contexto: uma página boa vale mais que vinte despejadas. Ferramentas, começando pela leitura. Regras e limites.</p>
+    <p>Exemplos reais anotados, inclusive os ruins. Memória entre as sessões. Avaliação: está bom, comparado a quê? Feedback: cada falha vira mudança no arquivo.</p>
+  </section>
+  <section class="comp-sec"><h3>Cada volta do ciclo é uma safra</h3>
+    <p>Entre uma safra e outra não muda o modelo; muda o que você anotou e ajustou no ambiente.</p>
+    <p>Exemplo da página: um agente que rascunha e-mails de cobrança fica três semanas no nível 1, sem falhas novas, antes de passar ao nível 2.</p>
+  </section>
+  <section class="comp-sec"><h3>Os jardins pessoal e Jarvis</h3>
+    <p>Na vida pessoal bastam três ou quatro arquivos de texto e uma revisão semanal de 20 minutos, em cinco frentes: decisões, saúde e rotina, dinheiro, estudo, escrita.</p>
+    <p>Jarvis é o nome popular do assistente pessoal que age: mexe em arquivos, calendário e mensagens. A página pede cuidado: conteúdo de fora é dado, não ordem.</p>
+  </section>
+  <section class="comp-sec"><h3>O jardim dos negócios</h3>
+    <p>Automação rígida quebra no primeiro caso imprevisto; o agente cultivado recebe papel, critérios, exemplos e limites. Um processo, um agente, um indicador.</p>
+    <p>Diagnóstico da página: "o agente alucina" é contexto ausente ou entulhado; "parou de melhorar" é feedback que não volta ao ambiente.</p>
+  </section>
+  <section class="comp-sec"><h3>O kit: cinco arquivos</h3>
+    <p>Ficha do agente, contexto, exemplos anotados, diário de falhas e placar semanal. Iguais no jardim pessoal e no da empresa.</p>
+    <p>A área reúne o curso IA Cultivada, os kits pessoal, Jarvis e empresa, o gerador de ficha e um diagnóstico de maturidade em oito perguntas.</p>
+    <p class="comp-fontes">Fontes: <a href="https://eventos.inema.pro/ia-cultivada/">Área IA Cultivada</a> · <a href="https://inematds.github.io/iacultivada/">Curso IA Cultivada</a> · <a href="https://inematds.github.io/iacultivada/kits/">Kits</a> · <a href="https://inematds.github.io/iacultivada/diagnostico/">Diagnóstico</a></p>
+  </section>
+</details>
+<nav class="lnav"><a href="#aula-2">← aula anterior</a><a class="next" href="#aula-4">próxima aula →</a></nav>
+<p class="aula-pe">Aula 3 · Áreas INEMA v6.2 · INEMA.CLUB PRO</p>
+</div>
+<script type="application/json" id="cards-3">
+[
+  {"front":"Seu agente responde bem na primeira semana e depois repete os mesmos erros. Que elementos provavelmente faltam?","back":"Os que fazem melhorar: exemplos anotados, avaliação e feedback que volte ao arquivo. Sem eles, o agente estaciona."},
+  {"front":"Você corrigiu o agente numa conversa e, dias depois, o erro voltou. O que fazer diferente?","back":"Registrar a falha numa linha do diário e levar a correção para o arquivo do agente. A conversa se perde; o arquivo fica."},
+  {"front":"Um agente novo vai responder clientes. Em qual nível de autonomia ele começa?","back":"No nível 1: ele propõe e uma pessoa executa. Sobe de nível só depois de ciclos sem falhas novas."}
+]
+</script>
+</section>

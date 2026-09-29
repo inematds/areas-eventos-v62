@@ -1,0 +1,196 @@
+<section class="view" id="v-aula-7" data-aula="7" data-tempo="14min">
+<div class="aula">
+<header class="a-hero">
+  <p class="kicker">Aula 7 de 9 · RSI</p>
+  <h1>Melhorar a IA é <em>testar antes de trocar</em>.</h1>
+  <figure class="cena"><img src="assets/img/aula-7.webp" width="1280" height="720" alt="Um analista de RH compara duas versões impressas de um documento numa mesa organizada, marcando certos e errados à caneta."></figure>
+  <p class="promise">Você consegue rodar um ciclo curto de melhoria num pedido seu: uma mudança só, testada antes e depois nos mesmos exemplos, com caminho de volta.</p>
+  <p class="why">Todo mundo já ajustou um pedido de IA "no olho" e achou que ficou melhor. A área RSI mostra como transformar essa impressão num teste que qualquer pessoa da equipe consegue conferir.</p>
+  <div class="em1min">
+    <p class="k">Em 1 minuto</p>
+    <ol>
+      <li>RSI é a sigla em inglês para automelhoria recursiva: a IA que ajuda a melhorar a própria IA.</li>
+      <li>Revisar a resposta, melhorar o sistema e investigar a recursão são três níveis diferentes.</li>
+      <li>Uma mudança por vez, comparada nos mesmos exemplos, com um exemplo guardado para a prova final.</li>
+    </ol>
+  </div>
+</header>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">1</span>Três níveis que não se confundem</h2>
+  <p>A área RSI estuda uma pergunta prática: como um sistema de IA propõe mudanças, testa o resultado e guarda o que funciona. A página separa três níveis.</p>
+  <p>No primeiro, a IA <b>revisa a resposta</b>: critica e refaz o que escreveu. Isso pode melhorar uma tarefa sem alterar o modelo. No segundo, <b>muda o sistema</b>: a instrução, a memória ou as ferramentas do <span class="gterm" data-def="uma IA que recebe uma responsabilidade e faz o trabalho com ferramentas, em vez de só responder uma pergunta. Exemplo: responder as dúvidas de férias dos funcionários com base na política da empresa.">agente</span>. No terceiro, <b>investigar a recursão</b>, a melhoria passa a ajudar a produzir melhorias futuras, e isso pede evidência forte.</p>
+  <p data-ex="gerente de loja">Um vendedor ofereceu a Sônia um atendente virtual que "aprende sozinho". Ela anotou a promessa e fez uma pergunta para cada nível.</p>
+  <figure class="largo">
+    <div class="janela">
+      <div class="tela-top"><i></i><i></i><i></i><span>Notas · proposta do atendente virtual</span></div>
+      <div class="janela-body">
+        <div class="item doc"><span class="pin">1</span> Ele refaz a resposta antes de mandar? Nível 1</div>
+        <div class="item doc"><span class="pin">2</span> Ele muda as próprias instruções? Nível 2</div>
+        <div class="item doc">Ele produz melhorias futuras sozinho? Nível 3, investigar a recursão</div>
+        <div class="item botao"><span class="pin">3</span> Pergunta ao vendedor: como isso foi medido?</div>
+      </div>
+    </div>
+    <ol class="passos">
+      <li><span class="pin">1</span><span>Revisar a resposta é barato e não muda o sistema.</span></li>
+      <li><span class="pin">2</span><span>Mudar instruções pede versões registradas e teste.</span></li>
+      <li><span class="pin">3</span><span>A pergunta que separa promessa de evidência.</span></li>
+    </ol>
+    <figcaption>Com três linhas, Sônia descobre de qual nível o vendedor está falando, antes de assinar qualquer coisa.</figcaption>
+  </figure>
+</section>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">2</span>Monte o teste antes de mexer</h2>
+  <p>A página propõe começar pequeno. Escolha uma tarefa, como tirar as ações de uma ata de reunião. Escreva a resposta certa para três exemplos inventados.</p>
+  <p>Depois separe os exemplos em dois grupos. Dois servem para ajustar o pedido. Um fica <b>reservado</b>: você só usa no fim, para conferir se a mudança se sustenta.</p>
+  <p data-ex="analista de RH">Diego usa a IA para tirar as ações das atas da reunião semanal do RH. Às vezes ela esquece o responsável de cada ação. Antes de mexer no pedido, ele montou a folha de teste.</p>
+  <figure class="largo">
+    <div class="janela">
+      <div class="tela-top"><i></i><i></i><i></i><span>Planilha · teste do pedido de atas</span></div>
+      <div class="janela-body">
+        <div class="item doc"><span class="pin">1</span> Ata A (inventada) · resposta certa: 3 ações, cada uma com responsável</div>
+        <div class="item doc">Ata B (inventada) · resposta certa: 2 ações, cada uma com responsável</div>
+        <div class="item doc"><span class="pin">2</span> Ata C (inventada) · reservada: não usar no ajuste</div>
+        <div class="item botao"><span class="pin">3</span> Versão 1 do pedido: guardada com data</div>
+      </div>
+    </div>
+    <ol class="passos">
+      <li><span class="pin">1</span><span>A resposta certa vem antes do teste, escrita por uma pessoa.</span></li>
+      <li><span class="pin">2</span><span>A ata reservada é a prova final. Ninguém ajusta olhando para ela.</span></li>
+      <li><span class="pin">3</span><span>O pedido atual guardado é o seu caminho de volta.</span></li>
+    </ol>
+    <figcaption>Três atas de mentira e uma cópia do pedido atual. É tudo o que o teste precisa.</figcaption>
+  </figure>
+</section>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">3</span>Uma mudança só, comparada nos mesmos exemplos</h2>
+  <p>Proponha <b>uma</b> mudança no pedido. Rode a versão antiga e a nova nas mesmas atas. Anote acertos, erros e o tempo que você levou revisando cada uma.</p>
+  <p>Se você mudar três coisas de uma vez e o resultado melhorar, não vai saber qual delas ajudou. E se piorar, também não.</p>
+  <p data-ex="analista de RH">A mudança de Diego foi uma frase: "Se a ata não disser quem é o responsável, escreva 'sem responsável' em vez de adivinhar."</p>
+  <figure class="largo">
+    <div class="lado">
+      <div class="antes"><span class="rot">Versão 1</span><p><b>Ata A:</b> ✓ três ações, ✓ responsáveis.</p><p><b>Ata B:</b> ✗ pôs um responsável que a ata não citava.</p><p><b>Revisão:</b> Diego precisou reler a ata B inteira.</p></div>
+      <div class="depois"><span class="rot">Versão 2</span><p><b>Ata A:</b> ✓ três ações, ✓ responsáveis.</p><p><b>Ata B:</b> ✓ marcou "sem responsável" na ação sem nome.</p><p><b>Revisão:</b> bastou olhar a linha marcada.</p></div>
+    </div>
+    <figcaption>Mesmas atas, mesmo critério, uma frase de diferença. Ainda falta a prova na ata reservada.</figcaption>
+  </figure>
+  <div class="calma"><p><span class="k">Se travou aqui, é normal</span>Às vezes as duas versões empatam. Isso também é resultado: a mudança não ajudou e o pedido antigo continua valendo. Anote e tente outra mudança outro dia.</p></div>
+</section>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">4</span>Validar, decidir e deixar a volta pronta</h2>
+  <p>Só agora rode a versão nova na ata reservada. Se ela acertar ali também, pode adotar. Anote quem decidiu e onde está a versão antiga.</p>
+  <p>A área chama isso de ciclo com freios. O <span class="gterm" data-def="o ciclo de melhoria que a área usa: executar, observar, criticar, propor, experimentar, validar, promover e repetir. Cada mudança que melhora vira a nova versão do processo; a que piora volta atrás.">LOOP-R</span>, o ciclo que o projeto propõe, tem uma regra explícita: nenhuma versão pior substitui a atual por decisão do sistema.</p>
+  <p data-ex="analista de RH">Na ata C, a versão 2 também acertou. Diego adotou a nova versão, escreveu "aprovado por Diego" e deixou a versão 1 na mesma pasta, com a data.</p>
+  <figure class="largo">
+    <div class="tela">
+      <div class="tela-top"><i></i><i></i><i></i><span>Chat de IA</span></div>
+      <div class="tela-body">
+        <p class="msg eu"><span class="quem">Você</span>Rodei a versão 1 e a versão 2 do meu pedido nas atas A e B, e a versão 2 na ata C, que eu tinha reservado. Meus resultados estão abaixo. Posso adotar a versão 2? Não invente resultados.
+[resultados colados aqui]</p>
+        <p class="msg ia ok"><span class="quem">IA</span>Pelos resultados que você colou, a versão 2 acertou nas três atas, inclusive na reservada. Pode adotar.
+Antes, registre quem decidiu e guarde a versão 1 para voltar se um erro novo aparecer.</p>
+      </div>
+      <p class="tela-nota bom">A IA só leu os resultados de Diego. Quem decide a troca é ele.</p>
+    </div>
+  </figure>
+  <div class="quiz" data-answer="b">
+    <p class="qk">Teste-se</p>
+    <p class="q">Depois de dez tentativas, a nova instrução tirou nota maior nos mesmos exemplos que você usou para ajustá-la. Isso prova que ela é melhor?</p>
+    <button class="opt" data-k="a" data-fb="Nota maior nos exemplos usados para ajustar pode ser só ajuste a esses exemplos. Falta a prova fora deles.">Sim, a nota subiu e isso basta</button>
+    <button class="opt" data-k="b" data-fb="Isso. A mudança precisa se sustentar em exemplos reservados, com os mesmos critérios. Mais tentativas não provam melhora geral.">Não, falta conferir num exemplo reservado</button>
+    <button class="opt" data-k="c" data-fb="Mais tentativas nos mesmos exemplos só reforçam o ajuste a eles. O que falta é um exemplo que ninguém usou.">Sim, se ela subir de novo em mais dez tentativas</button>
+    <p class="qfb" aria-live="polite"></p>
+  </div>
+</section>
+
+<section class="practice" data-mode="prompt">
+  <p class="pk">Pratique agora <span class="pcount">0/3</span></p>
+  <h3 class="ph">Seu primeiro ciclo de melhoria</h3>
+  <p class="pgoal">Pronto quando você tiver uma folha com três exemplos, uma única mudança e os resultados das duas versões. Cerca de 10 minutos.</p>
+  <p class="psafe">Use exemplos inventados, sem nomes de clientes nem dados pessoais. Se a IA preencher resultados por você, apague e peça de novo com os campos em branco.</p>
+  <div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">Leia a página https://eventos.inema.pro/rsi/ (área RSI do INEMA).
+
+Quero testar UMA melhoria num pedido que uso no trabalho.
+Minha tarefa: &lt;ex.: tirar as ações de uma ata de reunião&gt;
+Meu pedido atual: &lt;cole o pedido que você usa hoje&gt;
+
+Entregue:
+1) Em qual dos três níveis (revisar a resposta, melhorar o sistema, investigar a recursão) está a minha ideia.
+2) Três exemplos inventados da tarefa, cada um com um espaço em branco para EU escrever a resposta certa. Marque um como reservado.
+3) UMA única mudança no meu pedido.
+4) Uma tabela para comparar as duas versões: acertos, erros e tempo de revisão.
+5) Quem deve decidir a adoção e como voltar ao pedido antigo.
+
+Não invente resultados: deixe os campos de resultado em branco para eu preencher.</pre></div>
+  <details class="mais"><summary>Veja o molde preenchido por uma gerente de loja</summary>
+    <p><b>Minha tarefa:</b> escrever a descrição de um calçado para o site da loja a partir das anotações do fornecedor.<br><b>Meu pedido atual:</b> "Escreva uma descrição curta e simpática deste calçado com base nas anotações abaixo."<br><b>Resposta certa, escrita por ela:</b> a descrição cita material, cor e numeração, tem até 3 linhas e não inventa nada que não esteja nas anotações.</p>
+  </details>
+  <ol class="psteps">
+    <li><label><input type="checkbox" data-ptask="1"> <span>Copie o pedido, cole no chat de IA que você já usa e troque o que está entre &lt; &gt; por uma tarefa real sua. Escreva você a resposta certa de cada exemplo.</span></label></li>
+    <li><label><input type="checkbox" data-ptask="2"> <span>Rode o pedido antigo e o novo nos dois exemplos de ajuste e anote os resultados na tabela.</span></label></li>
+    <li><label><input type="checkbox" data-ptask="3"> <span>Rode o pedido novo no exemplo reservado. Só adote se ele acertar ali também, e guarde o pedido antigo.</span></label></li>
+  </ol>
+  <p class="pdone">Você acabou de trocar o "achei melhor" por um teste que outra pessoa consegue conferir.</p>
+</section>
+
+<div class="fecho">
+  <div class="cola">
+    <p class="k">Cola da aula</p>
+    <h3>RSI</h3>
+    <ol>
+      <li><span><b>Níveis</b>revisar a resposta, melhorar o sistema, investigar a recursão.</span></li>
+      <li><span><b>Teste</b>resposta certa antes, uma mudança por vez, mesmos exemplos nas duas versões.</span></li>
+      <li><span><b>Freios</b>exemplo reservado, quem decide anotado e versão antiga guardada.</span></li>
+    </ol>
+  </div>
+  <div class="next-action">
+    <p class="nak">Seu próximo passo</p>
+    <p class="na-win">Você já sabe testar uma melhoria antes de adotá-la, com caminho de volta.</p>
+    <p class="na-action">Hoje, guarde com data a versão atual do pedido de IA que você mais usa. É o seu ponto de volta para o próximo teste.</p>
+    <p class="na-hook">Na próxima aula: melhorar exige decidir entre versões. A área JEV mostra como montar uma decisão com alternativas e critério.</p>
+  </div>
+</div>
+
+<details class="complementar">
+  <summary>Material complementar<small>A área RSI em seis tópicos. Não conta no tempo da aula.</small></summary>
+  <section class="comp-sec"><h3>O que é RSI</h3>
+    <p>RSI é automelhoria recursiva: a IA que ajuda a melhorar a própria IA. A página trata o tema como área de estudo e acervo aberto.</p>
+    <p>Diante de uma promessa de IA que "aprende sozinha", pergunte o que exatamente melhorou e qual evidência sustenta isso.</p>
+  </section>
+  <section class="comp-sec"><h3>Três níveis que não se confundem</h3>
+    <p>Revisar a resposta pode melhorar uma tarefa sem alterar o modelo. Melhorar o sistema muda instruções, memória ou ferramentas e pede versões comparadas.</p>
+    <p>Investigar a recursão pede evidência forte: mais tentativas ou nota maior não demonstram crescimento ilimitado.</p>
+  </section>
+  <section class="comp-sec"><h3>Da ideia a um teste verificável</h3>
+    <p>Defina a tarefa, a resposta certa e os limites de dados, gasto e ações. Registre a versão inicial e separe exemplos reservados.</p>
+    <p>Uma mudança por vez, mesmos critérios, e valide antes de adotar. Uma avaliação conhecida pode ser explorada.</p>
+  </section>
+  <section class="comp-sec"><h3>LOOP-R: o ciclo com freios</h3>
+    <p>A página descreve o LOOP-R pronto para uso no <span class="gterm" data-def="a ferramenta da Anthropic em que o Claude trabalha direto nos arquivos de um projeto, lendo, escrevendo e executando tarefas, em vez de só conversar.">Claude Code</span>, com nove assistentes, registro de versões, teto de custo e comando para reverter.</p>
+    <p>No curso RSI ele aparece como proposta conceitual. Há também um curso LOOP-R com cinco trilhas e 21 aulas para gestores sem base técnica.</p>
+  </section>
+  <section class="comp-sec"><h3>Por onde começar: curso e guia</h3>
+    <p>O curso RSI v6.2 tem 18 aulas em seis módulos. O Guia RSI mapeia mecanismos, aplicações e limites. Os dois em português, inglês e espanhol.</p>
+    <p>Ressalva da página: o projeto reúne pesquisa e conteúdo educativo. Não é um sistema RSI autônomo pronto para executar.</p>
+  </section>
+  <section class="comp-sec"><h3>O acervo: Copiloto, Dream-RSI, 2028</h3>
+    <p>O RSI Copiloto compara instruções, pede revisão humana e permite reverter. A demonstração pública usa exemplos programados, sem IA; a IA real fica só na versão local.</p>
+    <p>O Dream-RSI é um guia educativo independente, não afiliado ao Google; o laboratório e os oito encontros são planos futuros.</p>
+    <p>O Alerta IA 2028 trata os cenários de 2028 como hipóteses, sem calendário garantido. Referências como Self-Refine e AlphaEvolve não foram reproduzidas no projeto.</p>
+    <p class="comp-fontes">Fontes: <a href="https://eventos.inema.pro/rsi/">Área RSI</a> · <a href="https://inematds.github.io/curso-rsi/">Curso RSI v6.2</a> · <a href="https://inematds.github.io/rsi/guia/">Guia RSI</a> · <a href="https://inematds.github.io/loop-r/guia/">LOOP-R</a></p>
+  </section>
+</details>
+<nav class="lnav"><a href="#aula-6">← aula anterior</a><a class="next" href="#aula-8">próxima aula →</a></nav>
+<p class="aula-pe">Aula 7 · Áreas INEMA v6.2 · INEMA.CLUB PRO</p>
+</div>
+<script type="application/json" id="cards-7">
+[
+  {"front":"Um fornecedor diz que o assistente dele \"aprende sozinho\". O que você pergunta primeiro?","back":"Em qual nível: se ele refaz a resposta, muda as próprias instruções ou ajuda a produzir melhorias futuras (investigar a recursão), e como isso foi medido."},
+  {"front":"Você mudou três frases do pedido de uma vez e o resultado melhorou. O que não dá para saber?","back":"Qual das três mudanças ajudou. Por isso o ciclo testa uma mudança por vez."},
+  {"front":"A versão nova acertou nos exemplos de ajuste e errou no reservado. O que fazer?","back":"Manter a versão antiga até entender o erro. O exemplo reservado é a prova de que a mudança se sustenta."}
+]
+</script>
+</section>

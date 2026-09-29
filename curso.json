@@ -1,0 +1,19 @@
+{
+  "id": "areaseventos62",
+  "titulo": "Áreas do INEMA Eventos v6.2 — O que é cada área",
+  "titulo_html": "Nove áreas, <em>um mapa</em>",
+  "curso_curto": "Áreas INEMA v6.2",
+  "kicker": "Áreas INEMA v6.2 · 3 módulos · 9 aulas de uns 15 minutos",
+  "lead": "O eventos.inema.pro organiza o estudo em nove áreas. Em cada aula você entende uma delas, vê para quem ela serve e faz o primeiro passo no seu próprio trabalho. No fim de cada aula há o material completo da área para quem quer ir mais fundo.",
+  "imagem_trilha": "assets/img/trilha.webp",
+  "alt_trilha": "Uma gerente de loja e um analista de RH olham juntos, numa mesa de café, um mapa de papel com nove caminhos coloridos.",
+  "rodape": "Áreas INEMA v6.2 · INEMA.CLUB PRO · <a href=\"landing.html\">sobre o curso</a>",
+  "landing": "landing.html",
+  "perfil": "tecnico",
+  "termos": ["agente", "Codex", "Claude Code", "WebMCP", "Skill", "LOOP-R", "token", "runtime", "lock-in", "Computer Use", "evals", "handoff", "SEO"],
+  "modulos": [
+    {"titulo": "Módulo 1 · Gerenciar e comandar agentes", "resumo": "Gestão de IA, AGI-ready e IA Cultivada: o trabalho passa a ser dirigir, delegar e cultivar agentes.", "aulas": [1, 2, 3]},
+    {"titulo": "Módulo 2 · Ferramentas e ambiente", "resumo": "Claude → Codex, Codex + Claude e OSWork: onde os agentes trabalham e como não ficar preso a um só.", "aulas": [4, 5, 6]},
+    {"titulo": "Módulo 3 · Melhorar, decidir e abrir", "resumo": "RSI, JEV e WebMCP: melhorar com teste, decidir com critério e preparar o seu site para agentes.", "aulas": [7, 8, 9]}
+  ]
+}

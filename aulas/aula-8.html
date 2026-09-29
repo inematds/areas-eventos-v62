@@ -1,0 +1,180 @@
+<section class="view" id="v-aula-8" data-aula="8" data-tempo="14min">
+<div class="aula">
+<header class="a-hero">
+  <p class="kicker">Aula 8 de 9 · JEV</p>
+  <h1>Quando a IA precisa <em>escolher</em>, não escrever.</h1>
+  <figure class="cena"><img src="assets/img/aula-8.webp" width="1280" height="720" alt="Uma gerente de loja no estoque, tablet na mão, pesando duas opções de pedido de reposição diante das prateleiras de caixas."></figure>
+  <p class="promise">Você consegue montar uma decisão com alternativas e critério, pedir a escolha a uma IA e conferir se ela merece ser seguida.</p>
+  <p class="why">Muita tarefa do dia a dia não pede um texto, pede uma decisão: para quem vai este e-mail, este pedido é urgente ou não. Quando a pergunta fica aberta, a resposta vem num parágrafo difícil de usar e de conferir. Esta área ensina a fechar a pergunta.</p>
+  <div class="em1min">
+    <p class="k">Em 1 minuto</p>
+    <ol>
+      <li>Uma decisão estruturada é uma pergunta fechada, com contexto e critérios.</li>
+      <li>Há três formas de perguntar: Choice (escolher uma opção), Noul (pergunta de sim ou não que devolve a chance de sim) e Score (um nível).</li>
+      <li>Antes de confiar, separe o que já foi observado do que ainda falta medir.</li>
+    </ol>
+  </div>
+</header>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">1</span>Pergunta aberta vira parágrafo; pergunta fechada vira decisão</h2>
+  <p>O Jev é o modelo de decisões estruturadas da TypeSafe, a empresa que faz o Jev. O Jev Decision Lab é o projeto educacional do INEMA para aprender a formular essas perguntas. A ideia central: a IA recebe contexto e critérios e devolve uma escolha, uma probabilidade ou um nível. Quem age depois é o seu processo, não a IA.</p>
+  <p data-ex="gerente de loja">Sônia precisa repor o estoque de tênis infantil e está em dúvida entre dois pedidos ao fornecedor. Primeiro ela perguntou do jeito de sempre.</p>
+  <figure class="largo">
+    <div class="lado">
+      <div class="antes"><span class="rot">Pergunta aberta</span><p>"O que você acha que eu devo fazer com a reposição de tênis infantil?"</p><p>Volta um texto longo, com conselhos gerais, sem uma escolha clara.</p></div>
+      <div class="depois"><span class="rot">Pergunta fechada</span><p><b>Opções:</b> pedido A ou pedido B.</p><p><b>Critérios:</b> caber no caixa do mês e chegar antes da volta às aulas.</p><p><b>Pergunta:</b> qual das duas atende aos critérios?</p><p>Agora a resposta é uma escolha que dá para conferir.</p></div>
+    </div>
+    <figcaption>No cartão Pergunta fechada, as opções e os critérios estão escritos. A IA só escolhe entre eles.</figcaption>
+  </figure>
+</section>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">2</span>Três formas de perguntar</h2>
+  <p>A página apresenta três formas. A certa depende do tipo de resposta de que você precisa. Noul é o nome da forma de pergunta de sim ou não: em vez de só "sim" ou "não", ela devolve a chance de a resposta ser sim.</p>
+  <figure class="largo">
+    <div class="janela">
+      <div class="tela-top"><i></i><i></i><i></i><span>Triagem de uma ata de reunião · três perguntas</span></div>
+      <div class="janela-body">
+        <div class="item doc"><b>Choice</b> · "Qual equipe cuida disto?" → devolve <b>uma alternativa</b> da lista de equipes.</div>
+        <div class="item doc"><b>Noul</b> · "A ata tem responsável e prazo?" → devolve a <b>chance de sim</b>, de 0 a 100%.</div>
+        <div class="item doc"><b>Score</b> · "Qual a prioridade, de 1 a 4?" → devolve <b>um nível</b> da escala.</div>
+      </div>
+    </div>
+    <figcaption>O exemplo da página: a mesma ata gera as três perguntas, e cada uma devolve um formato diferente. Fique com o formato que o seu processo usa.</figcaption>
+  </figure>
+  <p data-ex="analista de RH">Diego recebe dezenas de pedidos de funcionários por semana: troca de horário, declaração, reembolso. "Para qual fila vai este pedido?" é Choice. "Este pedido tem todos os documentos?" é Noul. "Qual a urgência, de baixa a alta?" é Score.</p>
+  <p>Escolher a forma errada dá resposta difícil de usar: uma nota quando você precisava de uma fila, ou um sim quando havia vários níveis.</p>
+</section>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">3</span>A política: seguir, abster-se ou mandar para uma pessoa</h2>
+  <p>Uma escolha sozinha não basta. Você também decide, antes, o que fazer com ela: quando a sugestão segue, quando a IA deve dizer "não sei" e quando o caso vai para revisão humana. A página avisa: confiança não é autorização automática.</p>
+  <p data-ex="analista de RH">Diego montou a pergunta de Choice para os pedidos e acrescentou a política.</p>
+  <figure class="largo">
+    <div class="tela">
+      <div class="tela-top"><i></i><i></i><i></i><span>Chat de IA · decisão estruturada</span></div>
+      <div class="tela-body">
+        <p class="msg eu"><span class="quem">Você</span>Contexto: pedido de funcionário recebido pelo e-mail do RH.
+Opções: folha de pagamento, benefícios, documentos.
+Critério: a fila é a da equipe que resolve o assunto principal do pedido.
+Pedido: "Preciso de uma declaração de vínculo para o banco."
+Responda com uma opção e o motivo. Se o pedido tiver dois assuntos ou faltar informação, responda "revisão humana".</p>
+        <p class="msg ia ok"><span class="quem">IA</span>Opção: documentos.
+Motivo: o pedido é uma declaração de vínculo, assunto da equipe de documentos.</p>
+      </div>
+      <p class="tela-nota bom">Uma opção da lista, um motivo e uma saída prevista para os casos duvidosos.</p>
+    </div>
+  </figure>
+  <div class="calma"><p><span class="k">Se travou aqui, é normal</span>Não sabe quando mandar para uma pessoa? Comece simples: tudo que tiver dois assuntos ou faltar dado vai para revisão humana. Com o tempo você ajusta.</p></div>
+</section>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">4</span>O que já foi observado e o que falta medir</h2>
+  <p>Esta é a seção que torna a área confiável. Cada número vem com o que ele prova e o que não prova.</p>
+  <figure class="largo">
+    <div class="lado">
+      <div class="bom"><span class="rot">Já observado</span><p>O laboratório público tem 20 casos simulados: servem para aprender a formular, não medem qualidade.</p><p>Um conjunto de regras simples acertou 20 de 24 pedidos fictícios. É resultado das regras, não do Jev.</p><p>Em 19/09/2026, os dez primeiros kits de exemplo receberam respostas reais com as classificações esperadas nos exemplos fictícios. Isso confirma que a conexão funciona, não que o Jev acerta.</p></div>
+      <div class="neutro"><span class="rot">Falta medir</span><p>Qualidade em português.</p><p>Se a confiança que o modelo informa corresponde ao acerto real.</p><p>Uso no dia a dia, com dados independentes e comparação com a decisão de uma pessoa.</p></div>
+    </div>
+    <figcaption>Repetir "20 de 24" como se fosse o acerto do Jev é inflar o resultado. A própria página separa as colunas.</figcaption>
+  </figure>
+  <p data-ex="gerente de loja">Sônia gostou da escolha da IA entre os pedidos A e B. Antes de usar isso toda semana, anotou: "Já observei: a escolha bateu com a minha em um caso. Falta medir: umas dez reposições, comparando com o que eu decidiria."</p>
+  <div class="quiz" data-answer="b">
+    <p class="qk">Teste-se</p>
+    <p class="q">O laboratório público mostrou respostas corretas em todos os casos que você abriu. Isso mede a qualidade do Jev?</p>
+    <button class="opt" data-k="a" data-fb="Os casos e as respostas do laboratório são simulados, escritos pelo próprio projeto. Acertar neles não diz como o modelo se sai com dados reais.">Sim, se acertou todos os casos, a qualidade está comprovada</button>
+    <button class="opt" data-k="b" data-fb="Isso. Os 20 casos são autorais e simulados; servem para estudar formulação, política e erros. Qualidade pede dados independentes e referência humana.">Não, os casos são simulados e servem para aprender a formular</button>
+    <button class="opt" data-k="c" data-fb="Mais casos simulados continuam sendo simulação. O que falta é comparar com dados reais e com a decisão de uma pessoa.">Só mede se você abrir os 20 casos</button>
+    <p class="qfb" aria-live="polite"></p>
+  </div>
+</section>
+
+<section class="practice" data-mode="prompt">
+  <p class="pk">Pratique agora <span class="pcount">0/3</span></p>
+  <h3 class="ph">Sua decisão com alternativas e critério</h3>
+  <p class="pgoal">Pronto quando você tiver uma pergunta fechada, a escolha da IA conferida com a sua e uma linha de "já observado x falta medir". Cerca de 10 minutos.</p>
+  <p class="psafe">Use uma decisão sem nomes de clientes nem dados pessoais. Se a IA responder com um texto longo em vez de uma opção, repita: "responda só com uma das opções e o motivo".</p>
+  <div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">Quero transformar uma decisão repetitiva do meu trabalho numa decisão estruturada.
+
+Minha decisão: &lt;descreva, ex.: para qual equipe vai cada e-mail de cliente&gt;
+Opções ou níveis possíveis: &lt;liste&gt;
+Critério: &lt;o que faz uma opção ser a certa&gt;
+Caso de hoje: &lt;cole um exemplo real, sem dados pessoais&gt;
+
+1) Diga se a pergunta é Choice (escolher entre opções), Noul (chance de sim) ou Score (nível numa escala), e por quê.
+2) Responda o caso de hoje com uma opção só e o motivo.
+3) Diga em que situações você deveria se abster e mandar para revisão humana.
+4) Monte duas colunas: o que este teste já mostrou e o que falta medir antes de eu automatizar.
+Não trate um exemplo como prova de qualidade.</pre></div>
+  <details class="mais"><summary>Veja o molde preenchido por uma gerente de loja</summary>
+    <p><b>Minha decisão:</b> qual pedido de reposição fazer ao fornecedor.<br><b>Opções:</b> pedido A ou pedido B.<br><b>Critério:</b> caber no caixa do mês e chegar antes da volta às aulas.<br><b>Caso de hoje:</b> os dois pedidos como vieram do fornecedor, com valor e prazo de entrega.</p>
+  </details>
+  <ol class="psteps">
+    <li><label><input type="checkbox" data-ptask="1"> <span>Escolha uma decisão que você toma toda semana e anote as opções e o critério.</span></label></li>
+    <li><label><input type="checkbox" data-ptask="2"> <span>Copie o pedido acima, cole no seu chat de IA e troque o que está entre &lt; &gt; pelo seu caso.</span></label></li>
+    <li><label><input type="checkbox" data-ptask="3"> <span>Confira a escolha: é a que você faria? Escreva sim ou não e acrescente uma linha na coluna "falta medir".</span></label></li>
+  </ol>
+  <p class="pdone">Você acabou de transformar uma pergunta aberta numa decisão que dá para conferir.</p>
+</section>
+
+<div class="fecho">
+  <div class="cola">
+    <p class="k">Cola da aula</p>
+    <h3>JEV</h3>
+    <ol>
+      <li><span><b>Forma</b>pergunta fechada, com contexto, opções e critério.</span></li>
+      <li><span><b>Tipo</b>Choice escolhe, Noul dá a chance de sim, Score dá o nível.</span></li>
+      <li><span><b>Cuidado</b>simulação ensina, não mede; separe observado de falta medir.</span></li>
+    </ol>
+  </div>
+  <div class="next-action">
+    <p class="nak">Seu próximo passo</p>
+    <p class="na-win">Você já sabe fechar uma pergunta em opções e critério e conferir a escolha da IA.</p>
+    <p class="na-action">Nesta semana, aplique a mesma pergunta a cinco casos e anote quantas vezes a escolha bateu com a sua.</p>
+    <p class="na-hook">Na próxima aula: e quando quem decide é o <span class="gterm" data-def="uma IA que recebe uma responsabilidade e faz o trabalho com ferramentas, em vez de só responder uma pergunta. Exemplo: responder as dúvidas de férias dos funcionários com base na política da empresa.">agente</span> do cliente, dentro do seu site? A última área do curso responde.</p>
+  </div>
+</div>
+
+<details class="complementar">
+  <summary>Material complementar<small>A área JEV em seis tópicos. Não conta no tempo da aula.</small></summary>
+  <section class="comp-sec"><h3>O que é o JEV</h3>
+    <p>Jev é o modelo de decisões estruturadas da TypeSafe. A resposta é uma escolha, uma probabilidade ou um nível, não um texto livre.</p>
+    <p>O Jev Decision Lab é o projeto educacional do INEMA. O modelo recebe contexto e critérios; o seu sistema responde pelas ações.</p>
+  </section>
+  <section class="comp-sec"><h3>Choice, Noul e Score</h3>
+    <p>Choice escolhe entre alternativas explícitas. Noul estima a probabilidade de sim. Score avalia níveis ordenados, como baixo, médio e alto.</p>
+    <p>A forma da pergunta define como medir e qual política aplicar. Incerteza não vira autorização automática.</p>
+  </section>
+  <section class="comp-sec"><h3>20 casos no laboratório público</h3>
+    <p>O laboratório abre no navegador, não pede chave e as respostas são simuladas. Cada caso traz contexto, perguntas, critérios, resposta, explicação e próximo passo.</p>
+    <p>Dá para editar perguntas, importar, exportar e abrir um relatório. Alterar um caso invalida a resposta simulada anterior.</p>
+  </section>
+  <section class="comp-sec"><h3>O curso: 3 trilhas, 36 aulas</h3>
+    <p>"Jev na prática" tem três trilhas: Entender, Aplicar e Construir e avaliar. São 12 módulos, 36 aulas e 12 laboratórios com dados fictícios.</p>
+    <p>Os módulos 1 a 8 são conceituais; do 9 ao 12 usam o <span class="gterm" data-def="a janela de texto do computador onde você digita comandos em vez de clicar em botões.">terminal</span>. O projeto final aceita a conclusão "não automatizar".</p>
+  </section>
+  <section class="comp-sec"><h3>17 pacotes e caminhos de uso</h3>
+    <p>Um pacote é um kit por área, com contexto, critérios, exemplo pronto para teste e instruções. São 17, de atendimento e vendas a reuniões e curadoria.</p>
+    <p>Sem a opção de consulta real, o pacote usa o exemplo simulado; com ela, pode consumir créditos. Há uma <span class="gterm" data-def="um manual reutilizável que o agente carrega: instruções, modelos, listas de conferência e exemplos de como a sua organização costuma fazer uma tarefa.">Skill</span> para o <span class="gterm" data-def="a ferramenta da OpenAI que faz o mesmo papel do Claude Code: um agente que trabalha nos arquivos de um projeto com os modelos da OpenAI.">Codex</span> e o <span class="gterm" data-def="a ferramenta da Anthropic em que o Claude trabalha direto nos arquivos de um projeto, lendo, escrevendo e executando tarefas, em vez de só conversar.">Claude Code</span>.</p>
+    <p>O jev-gw fica na frente das consultas, com teto de gasto diário, e, quando algo falha, devolve o caso para revisão humana.</p>
+  </section>
+  <section class="comp-sec"><h3>O que foi observado e o que falta</h3>
+    <p>Simulação ensina, não mede. As regras simples acertaram 20 de 24 pedidos fictícios, resultado das regras, não do Jev.</p>
+    <p>Os dez pacotes originais funcionaram em consulta real em 19/09/2026; os sete novos só têm testes controlados. Isso confirma a conexão, não a qualidade.</p>
+    <p>O Laya, alternativa local em avaliação, acertou 13 de 16 exemplos sintéticos, o que não comprova superioridade.</p>
+    <p class="comp-fontes">Fontes: <a href="https://eventos.inema.pro/jev/">Área JEV</a> · <a href="https://inematds.github.io/jev/app/">Laboratório JEV</a> · <a href="https://inematds.github.io/jev-curso/">Curso JEV</a> · <a href="https://inematds.github.io/jev-gw/guia/">Guia do jev-gw</a></p>
+  </section>
+</details>
+<nav class="lnav"><a href="#aula-7">← aula anterior</a><a class="next" href="#aula-9">próxima aula →</a></nav>
+<p class="aula-pe">Aula 8 · Áreas INEMA v6.2 · INEMA.CLUB PRO</p>
+</div>
+<script type="application/json" id="cards-8">
+[
+  {"front":"Você quer que a IA diga se cada devolução de cliente é de defeito, tamanho errado ou arrependimento. Qual forma de pergunta usar?","back":"Choice: são alternativas explícitas e a resposta é uma delas. O critério diz o que faz cada opção ser a certa."},
+  {"front":"A IA acertou os três casos de teste que você montou. Já dá para automatizar?","back":"Não. Três exemplos mostram que a pergunta funciona, não a qualidade. Falta comparar com a sua decisão num conjunto maior de casos reais."},
+  {"front":"Um pedido chega com dois assuntos misturados e a IA escolheu uma fila. Onde está o problema?","back":"Na política: casos com dois assuntos ou dado faltando deveriam ir para revisão humana, e isso precisa estar escrito no pedido."},
+  {"front":"Um colega diz que o Jev acerta 83% porque a página cita 20 de 24. O que responder?","back":"Esse número é das regras simples, em pedidos fictícios. Não é resultado do Jev."}
+]
+</script>
+</section>
